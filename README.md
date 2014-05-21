@@ -12,8 +12,12 @@ The run_analysis.R script perform the following actions on the data collected fr
 4. Appropriately labels the data set with descriptive activity names. 
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
+More information in the [codebook](Codebook.md) 
 
 ## Script usage instructions
 
 1. Download the [raw data set](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-2. Unzip the content of the zip file in a directory named: "**sdsd   xxxxx
+2. Unzip the content of the zip file in a directory named: `data`
+3. Place the `run_analysis.R` in the parent directory
+4. Run the `run_analysis.R` script
+5. The script will create the tidy data file named `tidy.txt`
